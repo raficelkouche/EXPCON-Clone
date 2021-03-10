@@ -1,0 +1,30 @@
+.rgbKineticSlider {
+  display: flex;
+}
+.rgbKineticSlider canvas {
+  width: 100% !important;
+  height: 100vh !important;
+  transform: scale(1) !important;
+}
+
+.slider-nav {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 6rem;
+  justify-content: space-around;
+}
+.slider-nav .main-nav {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.slider-nav .main-nav:hover {
+  cursor: pointer;
+}
+.slider-nav .main-nav.active {
+  background: white;
+}
+
+/*# sourceMappingURL=hero.css.map */
