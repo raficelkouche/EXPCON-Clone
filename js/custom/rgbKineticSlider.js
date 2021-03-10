@@ -863,12 +863,11 @@
         $(allSlides[tempIndex]).addClass('active')
         
         slideIndex++;
-      }, 3000);
+      }, 10000);
     }
 
     const intervalId = autoTransition();
     
-
     const removeAutoTransition = ID => {
       clearInterval(ID)
     }
@@ -882,7 +881,7 @@
         let navItem = nav[i];
 
         navItem.onclick = function (event) {
-          
+          //change to manual control
           removeAutoTransition(intervalId);
 
           // Make sure the previous transition has ended
@@ -922,27 +921,7 @@
   
           return false;
 
-          /* const active = document.querySelector('.active');
-
-          if (active) {
-            active.classList.remove('active');
-          }
-          this.classList.add('active');
-
-          if (this.getAttribute('data-nav') === 'next') {
-            if (currentIndex >= 0 && currentIndex < options.slideImages.length - 1) {
-              slideTransition(currentIndex + 1);
-            } else {
-              slideTransition(0);
-            }
-          } else {
-            if (currentIndex > 0 && currentIndex < options.slideImages.length) {
-              slideTransition(currentIndex - 1);
-            } else {
-              slideTransition(options.slideImages.length - 1);
-            }
-          }
-          return false; */
+          
         }
       }
     }
