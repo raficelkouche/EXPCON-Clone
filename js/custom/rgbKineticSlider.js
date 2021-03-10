@@ -300,9 +300,9 @@
               fontSize: titleSize,
               fontWeight: fontWeight_1,
               fill: options.textTitleColor,
-              align: 'left',
+              align: 'center',
               padding: 0, // todo : make it optionnable
-              wordWrap: true, // todo : make it optionnable
+              wordWrap: false, // todo : make it optionnable
               wordWrapWidth: word_wrap, // todo : make it optionnable
               letterSpacing: options.textTitleLetterspacing,
             });
@@ -361,7 +361,7 @@
                 fontSize: subtitleSize,
                 fontWeight: fontWeight_2,
                 fill: options.textSubTitleColor,
-                align: 'left',
+                align: 'center',
                 wordWrap: true,
                 wordWrapWidth: word_wrap,
                 letterSpacing: options.textSubTitleLetterspacing,

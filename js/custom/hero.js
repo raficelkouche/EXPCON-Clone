@@ -7,9 +7,9 @@ const images = [
 
 // content setup
 const texts = [
-  ["Interactive concert experience", "Experience your favourite artists like never before and from the comfort of your own home"],
-  ["Interactive concert experience", "Experience your favourite artists like never before and from the comfort of your own home"],
-  ["Interactive concert experience", "Experience your favourite artists like never before and from the comfort of your own home"]
+  ["INTERACTIVE CONCERT EXPERIENCE", "Experience your favourite artists like never before and from the comfort of your own home"],
+  ["INTERACTIVE CONCERT EXPERIENCE", "Experience your favourite artists like never before and from the comfort of your own home"],
+  ["INTERACTIVE CONCERT EXPERIENCE", "Experience your favourite artists like never before and from the comfort of your own home"]
 ]
 
 // init plugin 
@@ -54,19 +54,19 @@ rgbKineticSlider = new rgbKineticSlider({
   textsTiltEffect: false, // enable text tilt
   googleFonts: ['Playfair Display:700', 'Roboto:400'], // select google font to use
   buttonMode: false, // enable button mode for title
-  textsRgbEffect: true, // enable text rgb effect
+  textsRgbEffect: false, // enable text rgb effect
   textsRgbIntensity: 0.03, // set text rgb intensity
   navTextsRgbIntensity: 15, // set text rgb intensity for regular nav
 
   textTitleColor: 'white', // title color
-  textTitleSize: 125, // title size
-  mobileTextTitleSize: 125, // title size
-  textTitleLetterspacing: 3, // title letterspacing
+  textTitleSize: 65, // title size
+  mobileTextTitleSize: 65, // title size
+  textTitleLetterspacing: 6.5, // title letterspacing
 
   textSubTitleColor: 'white', // subtitle color ex : 0x000000
-  textSubTitleSize: 21, // subtitle size
-  mobileTextSubTitleSize: 21, // mobile subtitle size
-  textSubTitleLetterspacing: 2, // subtitle letter spacing
+  textSubTitleSize: 32, // subtitle size
+  mobileTextSubTitleSize: 32, // mobile subtitle size
+  textSubTitleLetterspacing: 3.2, // subtitle letter spacing
   textSubTitleOffsetTop: 90, // subtitle offset top
   mobileTextSubTitleOffsetTop: 90, // mobile subtitle offset top
 });

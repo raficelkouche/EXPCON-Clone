@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 .rgbKineticSlider {
   display: flex;
 }
@@ -12,6 +13,7 @@
   position: absolute;
   bottom: 5%;
   left: 50%;
+  transform: translate(-50%, 0);
   width: 6rem;
   justify-content: space-around;
 }
@@ -25,6 +27,27 @@
 }
 .slider-nav .main-nav.active {
   background: white;
+}
+
+#main-CTA {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  opacity: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#main-CTA a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=hero.css.map */

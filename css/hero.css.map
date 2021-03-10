@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/hero.scss"],"names":[],"mappings":"AAGA;EACE;;AAEA;EACE;EACA;EACA;;;AAKJ;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;;AAEA;EACE;;AAGF;EACE","file":"hero.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/__typography.scss","../scss/hero.scss"],"names":[],"mappings":"AAAQ;ACGR;EACE;;AAEA;EACE;EACA;EACA;;;AAKJ;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;;AAEA;EACE;;AAGF;EACE;;;AAKN;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAGA;EACE;EACA;EACA,aDrDG;ECsDH;EACA","file":"hero.css"}
