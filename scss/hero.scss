@@ -62,7 +62,7 @@
 
 .header-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -71,25 +71,12 @@
   left: 0;
   z-index: 2;
   margin-top: 2vh;
-  border: 2px solid red;
-
+  
   .menu-wrapper {
-    /* display: flex;
-    flex-direction: column; */
     position: relative;
-    /* top:0; */
-    /* left:0; */
-    /* width: 40%; */
-    /* height: 40vh; */
-    /* max-width: 400px; */
-    border: 2px solid pink;
-
-    
+    margin-left: 2rem;
 
     .hamburger{
-      /* position: relative; */
-      /* top: 0; */
-      /* left: 0; */
       z-index: 1;
       width: 60px;
       height: 60px;
@@ -138,46 +125,57 @@
     }
 
     .menu-items {
-      visibility: hidden;
+      visibility: visible;
       display: flex;
       position: relative;
       
       #circle-animation {
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 0;
+        top: -20px;
+        left: -10px;
+        width: 1rem; 
+        height: 1rem; 
         background-color: #1FE1E9;
         border-bottom-right-radius: 50%;
-        border-top-right-radius: 50%;
+        border-top-right-radius: 80%;
         border-bottom-left-radius: 50%;
-        transition: width 1s, height 1s, visibility 2s;
+        border-top-left-radius: 50%;
+        transition: all 1s;
       }
 
       #list-animation {
         position: absolute;
         top: 30%;
+        white-space: nowrap;
       }
 
       li {
-        opacity: 0;
-        color: white;
         list-style: none;
+        opacity: 0;
+        font-family: $font;
+        font-weight: bold;
+        font-size: 1.7rem;
+        
+        :hover{
+            color: black;
+            cursor: pointer;
+          }
+        
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        
       }
-       
     }
 
     .menu-toggle:checked {
-    
+
       &~ .menu-items {
-      visibility: visible;
       
         #circle-animation{
-          width: 40%;
-          height: 40vh;
-          max-width: 400px;
-          transition: width 1s, height 1s, visibility 2s;
+          transform: scale(50,50);
+          transition: all 1s;
         }
 
         li{
@@ -195,27 +193,24 @@
           +li{
             margin-top: 1rem;
           }
-        
         }
-
       }
-
-      
     }
   }
 
   .site-title {
+    flex-basis: 85%;
+    margin-left: 1rem;
+    z-index: 4;
+
     h2 {
-      color: white;
-      z-index: 3;
-      border: 2px solid yellow;
+      color: white;  
+      font-weight: 300;
+      font-family: $font;
+      font-size: 1.8rem;
     }
   }
 
-  .CTA-header {
-    border: 2px solid aqua;
-    height: min-content;
-  }
 }
 
 @keyframes animateList {
