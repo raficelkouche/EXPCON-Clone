@@ -15,21 +15,39 @@
 
 </head>
 <body>
-<!-- slider -->
-  <div id="rgbKineticSlider" class="rgbKineticSlider"></div>
-
-  <!-- slider nav -->
-  <nav class="slider-nav">
-    <!-- <a href="#" class="main-nav prev" data-nav="previous">Prev <span></span></a>
-    <a href="#" class="main-nav next" data-nav="next">Next <span></span></a> -->
-    <div class="main-nav first" data-nav="first"></div>
-    <div class="main-nav second" data-nav="second"></div>
-    <div class="main-nav third" data-nav="third"></div>
-  </nav>
-
-  <button id="main-CTA"><a href="/pricing.html">TRY IT NOW</a></button>
-
-
+  <div class="hero-section">
+    <div id="rgbKineticSlider" class="rgbKineticSlider"></div>
+    <nav class="slider-nav">
+        <div class="main-nav first" data-nav="first"></div>
+        <div class="main-nav second" data-nav="second"></div>
+        <div class="main-nav third" data-nav="third"></div>
+      </nav>
+      <button class="main-CTA" onclick="window.location.href='/pricing.html'">TRY IT NOW</button>
+  </div>
+  
+  <div class="header-wrapper">
+    <div class="menu-wrapper">
+      <div class="hamburger"><div></div></div>
+      <input type="checkbox" class="menu-toggle">
+      <div class="menu-items">
+        <div id="circle-animation"></div>
+        <div id="list-animation">
+          <ul>
+            <li>WHAT IS IT</li>
+            <li>PERKS</li>
+            <li>PRICING</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="site-title">
+      <h2>EXP|CON</h2>
+    </div>
+    <div class="CTA-header">
+      <button onclick="window.location.href='/pricing.html'">TRY IT NOW</button>
+    </div>
+  </div>
+  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/TweenMax.min.js"></script>
