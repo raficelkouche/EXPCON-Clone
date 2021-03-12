@@ -9,9 +9,11 @@
   <link rel="stylesheet" href="css/normalize-4.1.1.css">
   <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/red.css">
+  <link rel="stylesheet" href="css/liquidButton.css">
   
 </head>
 <body>
+  <div id="cover"></div>
   <div class="hero-section">
     <div id="rgbKineticSlider" class="rgbKineticSlider"></div>
     <nav class="slider-nav">
@@ -39,7 +41,7 @@
     <div class="site-title">
       <h2>EXP|CON</h2>
     </div>
-    <button class="header-CTA">
+    <button class="header-CTA liquid" onclick="window.location.href='/pricing.html'">
       <span>TRY IT NOW</span>
     </button>
   </div>
@@ -49,29 +51,28 @@
       <div class="section-text">
         <h2>SUPERIOR SOUND</h2>
         <p>Experience live versions of your favourite songs.</p>
-        <button>
+        <button class="liquid">
           <span>SEE DEMO</span>
         </button>
+        
       </div>
       <div class="section-audio">
         <div>
-          <img src="/img/medium17.png" alt="">
+          <img src="img/medium17.png" alt="">
         </div>
         <div>
-          <img src="/img/medium27.png" alt="">
+          <img src="img/medium27.png" alt="">
         </div>
-        <audio src="img/sample.m4a"></audio>
+        <audio src="/sounds/sample.m4a"></audio>
         <button data-playing="false" role="switch" aria-checked="false">
           <span>CLICK</span>
         </button>
       </div>
     </div>
-    
-   
   </div>
   
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/TweenMax.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/imagesLoaded.pkgd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/pixi.min.js"></script>
@@ -79,6 +80,7 @@
   <script src="js/custom/rgbKineticSlider.js"></script>
   <script src="js/custom/hero.js"></script>
   <script src="js/custom/red.js"></script>
+  <script src="js/custom/hoverAnimation.js"></script>
   
 </body>
 </html>

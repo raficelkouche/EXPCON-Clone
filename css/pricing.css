@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.pricing-section {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pricing-section .title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+/*# sourceMappingURL=pricing.css.map */

@@ -1,0 +1,27 @@
+button.liquid {
+  position: relative;
+  overflow: hidden;
+}
+button.liquid::before {
+  --size: 0;
+  content: "";
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #43e, #f34, transparent);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease;
+}
+button.liquid:hover::before {
+  --size: 400px;
+}
+button.liquid:hover span {
+  color: white !important;
+  position: relative;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=liquidButton.css.map */

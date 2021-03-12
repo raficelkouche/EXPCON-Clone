@@ -1,6 +1,17 @@
 @import './_colors';
 @import './_typography';
 
+
+#cover{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000000;
+  z-index: 5;
+}
+
 .rgbKineticSlider{
   display: flex;
 
@@ -215,12 +226,13 @@
     visibility: hidden;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 79px;
-    border: 2px solid white;
+    border: 1px solid transparent;
     opacity: 1;
     padding: 0.5em 2em;
     outline: none;
     margin-right: 1rem;
     cursor: pointer;
+    position: relative;
 
     span{
       text-align: left;
@@ -228,7 +240,6 @@
       font-weight: 600;
       font-size: 1rem; 
       letter-spacing: 1.8px;
-      
       opacity: 1;
       white-space: nowrap;
     }

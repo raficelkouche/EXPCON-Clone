@@ -1,3 +1,8 @@
+//slowly hide the cover while everything loads properly
+$(window).on('load', () => {
+  $("#cover").fadeOut("slow");
+})
+
 //helper function to check if an element is in the view port
 const isInViewPort = element => {
 

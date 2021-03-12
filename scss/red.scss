@@ -30,7 +30,6 @@
         letter-spacing: 0.5rem;
         flex-basis: 25%;
         margin: 0;
-        /* white-space: nowrap; */
       }
 
       p {
@@ -45,14 +44,10 @@
         width: fit-content;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         border-radius: 79px;
-        border: 2px solid white;
+        border: 1px solid transparent;
         outline: none;
         opacity: 1;
         padding: 0.5em 2em;
-        /* padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 3rem;
-        padding-right: 3rem; */
         margin-top: 1rem;
         margin-left: 1rem;
         cursor: pointer;
