@@ -1,5 +1,5 @@
 # EXP|CON - Clone
-### A front-end project implemented for a technical assessment. 
+ A front-end project implemented for a technical assessment. 
 
 ## Credits & Dependencies
 ---
@@ -11,4 +11,4 @@
 - Sass
 
 ## Notes
-- The site has been tested with Google Chrome only and might not work properly on other browsers 
+- The site has been tested with Google Chrome only and might not work properly on other browsers. 
