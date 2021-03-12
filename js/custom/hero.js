@@ -1,3 +1,16 @@
+//helper function to check if an element is in the view port
+const isInViewPort = element => {
+
+  const boundaries = element.getBoundingClientRect();
+
+  return (
+    boundaries.top >= 0 &&
+    boundaries.bottom <= window.innerHeight &&
+    boundaries.left >= 0 &&
+    boundaries.right <= window.innerWidth
+  );
+}
+
 // images setup
 const images = [
   "img/image-1.png",

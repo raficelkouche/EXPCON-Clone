@@ -8,11 +8,8 @@
 
   <link rel="stylesheet" href="css/normalize-4.1.1.css">
   <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/red.css">
   
-
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
-
 </head>
 <body>
   <div class="hero-section">
@@ -24,7 +21,6 @@
       </nav>
       <button class="main-CTA" onclick="window.location.href='/pricing.html'">TRY IT NOW</button>
   </div>
-  
   <div class="header-wrapper">
     <div class="menu-wrapper">
       <div class="hamburger"><div></div></div>
@@ -43,7 +39,35 @@
     <div class="site-title">
       <h2>EXP|CON</h2>
     </div>
+    <button class="header-CTA">
+      <span>TRY IT NOW</span>
+    </button>
+  </div>
+
+  <div class="section-RED">
+    <div class="section-body">
+      <div class="section-text">
+        <h2>SUPERIOR SOUND</h2>
+        <p>Experience live versions of your favourite songs.</p>
+        <button>
+          <span>SEE DEMO</span>
+        </button>
+      </div>
+      <div class="section-audio">
+        <div>
+          <img src="/img/medium17.png" alt="">
+        </div>
+        <div>
+          <img src="/img/medium27.png" alt="">
+        </div>
+        <audio src="img/sample.m4a"></audio>
+        <button data-playing="false" role="switch" aria-checked="false">
+          <span>CLICK</span>
+        </button>
+      </div>
+    </div>
     
+   
   </div>
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -54,7 +78,7 @@
   <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/pixi-filters.min.js"></script>
   <script src="js/custom/rgbKineticSlider.js"></script>
   <script src="js/custom/hero.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
+  <script src="js/custom/red.js"></script>
+  
 </body>
 </html>

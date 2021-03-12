@@ -182,6 +182,41 @@
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
 }
+.header-wrapper .header-CTA {
+  visibility: hidden;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  border: 2px solid white;
+  opacity: 1;
+  padding: 0.5em 2em;
+  outline: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.header-wrapper .header-CTA span {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1.8px;
+  opacity: 1;
+  white-space: nowrap;
+}
+.header-wrapper .header-CTA.active {
+  visibility: visible;
+}
+.header-wrapper .header-CTA.active.red span {
+  color: #D1346E;
+}
+.header-wrapper .header-CTA.active.yellow span {
+  color: #FFB33F;
+}
+.header-wrapper .header-CTA.active.black {
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+}
+.header-wrapper .header-CTA.active.black span {
+  color: white;
+}
 
 @keyframes animateList {
   0% {
