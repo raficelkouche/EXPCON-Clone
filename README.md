@@ -1,5 +1,15 @@
 # EXP|CON - Clone
- A front-end project implemented for a technical assessment. 
+ A front-end project implemented for a technical assessment.
+
+# Preview
+[demo](img/demo.gif)
+
+
+# Features
+- Three image slider with water transition effects.
+- Liquid gradient CTA buttons.
+- Menu animation.
+- Button near speakers plays music when clicked.
 
 ## Credits & Dependencies
 ---
