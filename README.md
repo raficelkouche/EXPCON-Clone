@@ -4,7 +4,6 @@
 # Preview
 ![demo](img/demo.gif)
 
-
 # Features
 - Three image slider with water transition effects.
 - Liquid gradient CTA buttons.
@@ -12,7 +11,6 @@
 - Button near speakers plays music when clicked.
 
 ## Credits & Dependencies
----
 - TweenMax
 - [PixiJS](http://www.pixijs.com/)
 - [Pixi Filters](https://github.com/pixijs/pixi-filters)
